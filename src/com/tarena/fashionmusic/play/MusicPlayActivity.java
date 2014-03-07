@@ -223,6 +223,7 @@ public class MusicPlayActivity extends Activity implements OnClickListener {
 			nowbitmap = MyApplication.bitmap_l;
 		}
 		if (nowbitmap != null && nowbitmap.isRecycled() == false) {
+			
 			ivshow_album.setImageBitmap(nowbitmap);
 		} else {
 			ivshow_album.setImageBitmap(MyApplication.bitmap_l);
